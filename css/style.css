@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+    background-color: #00b386;
+}
+.navbar-custom {
+	background-color:#009973;
+    color:#ffffff;
+  	border-radius:0;
+}
+  
+.navbar-custom .navbar-nav > li > a {
+  	color:#fff;
+}
+.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+    color: #ffffff;
+	background-color:transparent;
+}
+      
+.navbar-custom .navbar-nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: #009973;
+}
+      
+.navbar-custom .navbar-brand {
+  	color:#eeeeee;
+}
+.navbar-custom .navbar-toggle {
+  	background-color:#eeeeee;
+}
+.navbar-custom .icon-bar {
+  	background-color:#009973;
+}
+#main {
+
+    height: 100%;
+    margin: 0 auto; /* the bottom margin is the negative value of the footer's height */
+}
+
+#footer{
+	background-color: #009973;
+	font-color: black;
+}
+.blkClr{
+	color: black;
+}
+.Tcenter{
+  text-align: left;
+  font-size: 12px;
+  margin: 0 auto;
+}
+
+.product{
+  max-height: 200px;
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+.product-image{
+   height: 100px;
+  width: 100px;
+  align-items: center;
+    margin: 0 auto;
+  max-height: 80%;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.desc{
+    height: 100px;
+  width: 100px;
+  align-items: center;
+    margin: 0 auto;
+  max-height: 80%;
+  max-width: 80%;
+  margin: 0 auto;
+}
