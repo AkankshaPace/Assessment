@@ -1,0 +1,18 @@
+<!-- displaying cart for those items which have been added to cart -->
+
+<div  ng-controller="mainController">
+  <h3>Cart</h3>
+  <div class="row" class="Tcenter">
+    <div class="col-md-12" ng-repeat="i in products">
+        <div class="row" ng-repeat="item in i">
+          <div class="col-md-4">
+            <img src="{{item.Picture}}" alt="product" class="product-image"> {{item.Name}}
+          </div>
+          <div class="col-md-8" class="desc">
+            {{item.Price}}
+          </div>
+        </div>
+    </div>
+  <h5> Total Price: {{total}}</h5>
+  </div>
+</div>

@@ -1,0 +1,23 @@
+
+<!-- Products page displayig all items whose isVisible flag is true -->
+<div  ng-controller="cartController">
+	<h3>Products</h3>
+	<div class="row" class="Tcenter">
+		<div ng-repeat="item in items">
+			<div class="col-md-3 product" ng-show = "item.isVisible">
+				<div class="row">
+					<div class="col-md-12">
+						<img src="{{item.productPicture}}" alt="product" class="product-image">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<h5 class="Tcenter">{{item.productName}}</h5>
+						<h5 class="Tcenter">{{item.productPrice}}</h5>
+						<button ng-click="addToCart(item)"><i class="fa fa-cart-plus"></i> Add to Cart</button>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</div>
+</div>
